@@ -15,7 +15,7 @@ const CardContainer = ({data}) => {
   
   return (
     <div className='card-container'>
-      <input type="text" placeholder='Search player' className='searchInput form-control' onChange={handleSearch}/>
+      <input type="text" placeholder='Search player' className='searchInput form-control mx-auto' onChange={handleSearch}/>
       <section className='players'>
           
           {
